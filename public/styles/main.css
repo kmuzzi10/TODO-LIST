@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: #35155D;
+    color: white;
+}
+
+.ul-todo {
+    display: grid;
+    place-items: center;
+    height: 10vh;
+    font-size: 2rem;
+}
+
+#item-input {
+    width: 110%;
+}
+
+.del {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.inp-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn-add {
+    width: 35%;
+    height: 30%;
+}
+
+/* coloring */
+.date-sec {
+    margin-top: 100px;
+    font-size: 3rem;
+    box-shadow: 10px 0px 10px 10px #888888;
+}
+
+#todo {
+    margin-top: 40px;
+}
+
+.todo-h1 {
+    font-size: 4rem;
+    text-decoration: underline;
+}
