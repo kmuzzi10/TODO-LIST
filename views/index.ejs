@@ -15,12 +15,12 @@
             </div>
         </section>
         <section id="todo">
-            <h1 class="todo-h1">TODO LIST</h1>
-            <div class="container">
+            
+            <div class="container text-con">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
 
-
+                        <h1 class="todo-h1">TODO LIST</h1>
 
 
                         <ul class="ul-todo" id="todo-list" style="list-style: none;">
@@ -29,6 +29,9 @@
                                 <div style="display: flex;row-gap: 10px;" class="box">
                                     <input style="margin-right: 10px; margin-top: 6px;" type="checkbox" name="checkbox"
                                         id="checkbox">
+                                        <li  id="li">
+                                            <%= newListItems[i] %>
+                                        </li>
                                     <script>
                                         const todoList = document.getElementById('todo-list');
                                         todoList.addEventListener('change', function (event) {
@@ -38,9 +41,7 @@
                                             }
                                         });
                                     </script>
-                                    <li id="li">
-                                        <%= newListItems[i] %>
-                                    </li>
+                                    
                                 </div>
                                 <% } %>
 
